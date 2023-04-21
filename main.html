@@ -4,6 +4,7 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Book List</title>
 </head>
 
 <body>
@@ -11,6 +12,38 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+    <h1>MyBookList</h1>
+
+    <div class="form-group">
+        <form action="" method="post">
+            <div>
+                <label for="title">Title</label><br>
+                <input type="text" id="title" name="title">
+            </div>
+            <div>
+                <label for="author ">Author </label><br>
+                <input type="text" id="author " name="author ">
+            </div>
+            <div>
+                <label for="isbn">ISBN#</label><br>
+                <input type="text" id="isbn" name="isbn">
+            </div>
+            <button id="submit" value="submit">Add Book</button>
+        </form>
+    </div>
+
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
 </body>
 
 </html>

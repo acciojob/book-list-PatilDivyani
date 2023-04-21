@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+*{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#submit{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    background-color:rgb(13,110,253);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.form-group{
+    
+}
+
+input[type="text"]{
+    display: block;
+    width: 80vw;
+}
+
+.table thead{
+    text-align: center;
+}
