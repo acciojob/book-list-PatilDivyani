@@ -5,7 +5,10 @@
 
 h1{
     text-align: center;
-    
+	font-weight: normal;
+}
+h1 span{
+	color: rgb(13,110,253);
 }
 
 #submit{
